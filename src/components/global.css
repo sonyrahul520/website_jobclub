@@ -1,0 +1,30 @@
+.color-box{
+    background-color: #bcd2e8;
+    color: #00224b;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.nav-bar{
+    margin-left: 75px;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+.hero-image{
+    
+    width: 475px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-bottom-right-radius: 150px;
+}
+
+
+.margin-box{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 75px;
+    font-size: 48px;
+    font-weight: 600;
+}

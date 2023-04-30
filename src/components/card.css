@@ -1,0 +1,25 @@
+.container{
+  font-family: arial;
+  font-size: 18px; 
+  width: 750px;
+  height: 400px;
+  background-color: lightgray;
+  /* Setup */
+  display: flex;
+  align-items: center;
+}
+
+.box {
+    /* Center vertically */
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    box-sizing: 2px;
+    border-radius: 25px;
+    background-color: white;
+    z-index: 10px;
+  }
+
+  .box:hover{
+    z-index: 40px;
+  }
