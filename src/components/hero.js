@@ -4,7 +4,7 @@ import './global.css';
 
 export default function Hero(){
    return(
-    <div className='color-box'>
+    <div className='color-box spacer'>
         <div className='row'>
              <div className='col-md-6'>
                  <h1 className='margin-box'>We help you<br/>

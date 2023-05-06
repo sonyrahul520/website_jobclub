@@ -7,9 +7,11 @@ import About from './components/about';
 import Courses from './components/course';
 import Search from './components/search_apply';
 import NavigationBar from './components/navigation';
+import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <NavigationBar/>
@@ -17,6 +19,7 @@ root.render(
     <About />
     <Courses />
     <Search />
+    <Footer />
   </React.StrictMode>
 );
 

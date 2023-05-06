@@ -4,13 +4,14 @@ export default function NavigationBar(){
 
     return(
         <div className="color-box">
-            <div className='nav-bar'>
                 <div className='row'>
-                <div className='col-md-4 mt-4 logo'>Job Club</div>
-                <div>Home</div>
+                <ul className='nav'>
+                    <div className='col-md-4 mt-4 logo'>Job Club</div>
+                    {/* <li className='mt-4 '><a href="/">Welcome</a></li>
+                    <li className='mt-4'><a href="/">Resources</a></li>
+                    <li className='mt-4'><a href="/">Gaming</a></li> */}
+                </ul>
                 </div>
-              
-            </div>
             
         </div>
     );

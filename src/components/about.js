@@ -1,25 +1,29 @@
-import React from 'react';
-import image1 from './image1.jpg';
+import React, { useLayoutEffect } from 'react';
+import image from './image4.jpg';
+import './global.css';
 
 export default function About(){
+    useLayoutEffect(() => {
+        document.body.style.backgroundColor = '#f8f9fa'
+   });
     return( 
-        <div className='bg-light rounded'>
-            <div className='row'>
-                <div className='col-md-8 my-2'>
-                <h1 className='m-4'>For the Job seekers<br/>
+        <div className='font-style bg-light mt-4'>
+            <div className='row margin-course'>
+                <div className='col-md-6'>
+                <h1 className ='margin-all para-font'>For the Job seekers<br/>
                     based in Leicester</h1>
-                <p className='m-4'>If your looking for work then join us on a Monday, 
-                    the Job Club based on Freeman's common near Leicester <br/>
+                <p className='margin-para para-font'>If your looking for work then join us on a Monday, 
+                    the Job Club based on Freeman's common near Leicester
                     provides an informal atmosphere, where members can spend focused time searching 
                     and applying for work supported <br/>by fellow members and experienced Job Coaches.
                 </p>
-                <p className='mx-4'>In addition you have the opportunity to attend the CAP 
+                <p className='margin-para'>In addition you have the opportunity to attend the CAP 
                     Job Course where you improve the quality of your job applications.
                 </p>
-                <p className='mx-4'>To find out more email <u>contact@jobclub.info</u> or phone/text </p>
+                <p className='margin-para'>To find out more email <u>contact@jobclub.info</u> or phone/text </p>
                 </div>
-                <div className='col-md-4'>
-                    <img className='rounded shadow mt-2' src={image1} alt="Job club Image" />
+                <div className='col-md-6'>
+                    <img className='margin-image' src={image} alt="Job club Image" />
                  </div>
             </div>
           
